@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
-
+import NavBarLogo from "../../assets/navbar.png";
 
 const Navbar = () => {
   const { signout } = useAuth();
@@ -11,6 +11,9 @@ const Navbar = () => {
     <header class="p-3 bg-success text-white">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          
+          <img src={NavBarLogo} width="50" height="50"  alt="login-logo"/>
+          
           <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
           </a>
   

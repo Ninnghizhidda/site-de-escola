@@ -1,6 +1,8 @@
 import React from "react";
 import NavbarComp from "../../components/Navbar";
 import * as C from "./styles";
+import Schedule from "../../components/Schedule";
+
 
 const Home = () => {
 
@@ -8,11 +10,9 @@ const Home = () => {
   return (
     <body>
     <main>
-      <NavbarComp />  
-        
+      <NavbarComp />
       <C.Container>
-        <C.Title>Home</C.Title>
-        
+        <Schedule />
       </C.Container>
     </main>
 
