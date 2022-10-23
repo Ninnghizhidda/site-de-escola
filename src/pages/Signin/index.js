@@ -38,7 +38,7 @@ const Signin = () => {
           <div class="wrap-Login">
             <form class="login-form">
               <span class="login-form-title">
-                Login Inicial
+                Centro Educacional Tucanos
               </span>
             
               <div class="wrap-input margin-top-35 margin-bottom-35">
