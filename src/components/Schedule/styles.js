@@ -40,16 +40,4 @@ export const Schedule = styled.button`
    .group-editing.e-schedule.e-device .template-wrap .resource-details .resource-designation {
        display: none;
    }
-   
-   .group-editing.e-schedule .template-wrap .resource-image.margaret {
-       background-image: url('https://ej2.syncfusion.com/react/demos/src/schedule/images/margaret.png');
-   }
-   
-   .group-editing.e-schedule .template-wrap .resource-image.robert {
-       background-image: url('https://ej2.syncfusion.com/react/demos/src/schedule/images/robert.png');
-   }
-   
-   .group-editing.e-schedule .template-wrap .resource-image.laura {
-       background-image: url('https://ej2.syncfusion.com/react/demos/src/schedule/images/laura.png');
-   }
 `;
